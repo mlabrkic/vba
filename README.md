@@ -8,11 +8,6 @@ Alt+F11.
 
 #### How to get help
 
-In Visual Basic Editor, select Tools, Options<br>
-choose: Require Variable Declaration<br>
-==>
-Option Explicit
-
 ``` vba
 'Require Variable Declaration
 Option Explicit
@@ -35,4 +30,24 @@ inp
 
 End Sub
 ```
+
+In Visual Basic Editor, select Tools, Options<br>
+choose: Require Variable Declaration<br>
+==>
+Option Explicit
+
+
+#### How to export source code
+
+In Visual Basic Editor ...
+
+1) Open Module1<br>
+(Choose Project Explorer: Select View, Project Explorer)<br>
+In Project Explorer, double click on Module1 to open it.
+
+2) Export source code<br>
+Select File, Export File<br>
+==> Module1.bas
+
+
 
