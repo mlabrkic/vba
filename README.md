@@ -55,7 +55,7 @@ If you have "Debug.Print" in your code, then "Immediate Window" should be enable
 How to run Excel macro?<br>
 Click on the green "play" arrow (or press F5) in the VBE toolbar to run the program,<br>
 while the cursor is inside the Sub procedure.<br>
-Or Click Run ==> "Run Sub/UserForm F5".
+( Or Click Run ==> "Run Sub/UserForm F5". )
 
 * [devtut - Getting started with excel-vba](https://devtut.github.io/excelvba/getting-started-with-excel-vba.html)
 
@@ -71,6 +71,36 @@ In Project Explorer, double click on Module1 to open it.
 2) Export source code<br>
 Select File, Export File<br>
 ==> Module1.bas
+
+
+#### HOW TO COPY SOME BAS FILE TO THE NEW EXCEL FILE
+
+1. Open Excel and save new Excel xlsm file
+
+Win-s (search), excel, Enter<br>
+Choose "Blank Workbook"
+
+Excel, File, Save As<br>
+to Documents
+
+Enter File Name:  test<br>
+Excel Workbook xlsm (m- with macros)<br>
+Save
+
+2. Download some bas file:
+
+On the github portal, open:
+[create_table_of_contents_of_worksheets.bas](https://github.com/mlabrkic/vba/blob/main/macros/create_table_of_contents_of_worksheets.bas)<br>
+Click on the "Download raw file". ==> C:\Users\username\Downloads\
+
+3. Copy the contents of bas file to Excel
+
+Open "Visual Basic Editor":  Alt+F11<br>
+Click on the Insert,  Module  ==>  Module1<br>
+Paste the contents of bas file to Module1, and Save.<br>
+Click on the Debug,  Compile  VBAproject.
+
+
 
 
 #### References
