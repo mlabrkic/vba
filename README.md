@@ -16,7 +16,7 @@ Sub temp1()
 
 ' 1) Write:
 inp
-  ' CTRL+TAB
+  ' press Ctrl+Space together for autocompletion
   ' ==>
   ' InputBox
 
@@ -35,6 +35,29 @@ In Visual Basic Editor, select Tools, Options<br>
 choose: Require Variable Declaration<br>
 ==>
 Option Explicit
+
+
+#### Debug.Print ( Immediate Window )
+
+* In Excel, Open the Visual Basic Editor (VBE)<br>
+* Click View ==> Immediate Window to open the Immediate Window (or ctrl + G).
+
+You should see the Immediate Window at the bottom on VBE.<br>
+This window allow you to directly test some VBA code.
+
+So let's start, type in this console :<br>
+?Worksheets.<br>
+==><br>
+?Worksheets.Count
+
+If you have "Debug.Print" in your code, then "Immediate Window" should be enabled, and then the macro should be run from VBE.
+
+How to run Excel macro?<br>
+Click on the green "play" arrow (or press F5) in the VBE toolbar to run the program,<br>
+while the cursor is inside the Sub procedure.<br>
+Or Click Run ==> "Run Sub/UserForm F5".
+
+* [devtut - Getting started with excel-vba](https://devtut.github.io/excelvba/getting-started-with-excel-vba.html)
 
 
 #### How to export source code
