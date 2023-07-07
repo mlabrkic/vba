@@ -145,8 +145,8 @@ Click on the Debug,  Compile  VBAproject.
 #### References 4
 
 * [Microsoft vba](https://learn.microsoft.com/en-us/office/vba/api/overview/) <br>
-&nbsp;&nbsp;1. [Microsoft vba - Language reference for VBA](https://learn.microsoft.com/en-us/office/vba/api/overview/language-reference) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.1. [Microsoft vba - Language reference for VBA - Visual Basic conceptual topics](https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/visual-basic-conceptual-topics) <br>
+&nbsp;&nbsp;1. [VBA - Language reference for VBA](https://learn.microsoft.com/en-us/office/vba/api/overview/language-reference) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.1. [vba - Language reference for VBA - Visual Basic conceptual topics](https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/visual-basic-conceptual-topics) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* [DECLARING VARIABLES](https://learn.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-variables) <br>
 &nbsp;&nbsp;2. [Excel VBA reference](https://learn.microsoft.com/en-us/office/vba/api/overview/excel) <br>
 
