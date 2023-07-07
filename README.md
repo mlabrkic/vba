@@ -1,6 +1,8 @@
-# vba
+# Visual Basic for Applications (VBA)
 
-#### Open Visual Basic Editor
+Office Visual Basic for Applications (VBA) is an event-driven programming language that enables you to extend Microsoft Office applications.
+
+### Open Visual Basic Editor
 
 * [devtut - Getting started with excel-vba](https://devtut.github.io/excelvba/getting-started-with-excel-vba.html)
 
@@ -17,7 +19,7 @@ Then, go to the developer tab and click "View Code" or "Visual Basic"
 Step 2 Option **C**: View tab > Macros > Click Edit button to open an Existing Macro
 
 
-#### How to get help
+### How to get help
 
 ``` vba
 'Require Variable Declaration
@@ -48,7 +50,7 @@ choose: Require Variable Declaration<br>
 Option Explicit
 
 
-#### Debug.Print ( Immediate Window )
+### Debug.Print ( Immediate Window )
 
 * In Excel, Open the Visual Basic Editor (VBE)<br>
 * Click View ==> Immediate Window to open the Immediate Window (or ctrl + G).
@@ -69,7 +71,7 @@ while the cursor is inside the Sub procedure.<br>
 ( Or Click Run ==> "Run Sub/UserForm F5". )
 
 
-#### How to export source code
+### How to export source code
 
 In Visual Basic Editor ...
 
@@ -82,7 +84,7 @@ Select File, Export File<br>
 ==> Module1.bas
 
 
-#### HOW TO COPY SOME BAS FILE TO THE NEW EXCEL FILE
+### HOW TO COPY SOME BAS FILE TO THE NEW EXCEL FILE
 
 1. Open Excel and save new Excel xlsm file
 
@@ -109,10 +111,9 @@ Click on the Insert,  Module  ==>  Module1<br>
 Paste the contents of bas file to Module1, and Save.<br>
 Click on the Debug,  Compile  VBAproject.
 
+<br>
 
-
-
-#### References 1 ([devtut - Excel VBA](https://devtut.github.io/excelvba/))
+### References 1 ([devtut - Excel VBA](https://devtut.github.io/excelvba/))
 
 * [devtut - **Getting started** with excel-vba](https://devtut.github.io/excelvba/getting-started-with-excel-vba.html)
 * [Last Used Row or Column in a Worksheet](https://devtut.github.io/excelvba/methods-for-finding-the-last-used-row-or-column-in-a-worksheet.html)
@@ -126,7 +127,7 @@ Click on the Debug,  Compile  VBAproject.
 * [**Common Mistakes**](https://devtut.github.io/excelvba/common-mistakes.html)
 
 
-#### References 2 ([devtut - VBA](https://devtut.github.io/vba/))
+### References 2 ([devtut - VBA](https://devtut.github.io/vba/))
 
 * [Scripting.Dictionary object](https://devtut.github.io/vba/scripting-dictionary-object.html)
 * [CreateObject vs. GetObject](https://devtut.github.io/vba/createobject-vs-getobject.html)
@@ -135,14 +136,14 @@ Click on the Debug,  Compile  VBAproject.
 * [Error Handling](https://devtut.github.io/vba/error-handling.html)
 
 
-#### References 3
+### References 3
 
 * [ScottSchaen - How To Get Started](https://github.com/ScottSchaen/excel-vba-macros#how-to-get-started)
 * [AllenMattson/VBA](https://github.com/AllenMattson/VBA)
 * [thesmallman - EXCEL VBA SCRIPTING DICTIONARY](https://www.thesmallman.com/blog/2020/4/24/excel-vba-scripting-dictionary)
 
 
-#### References 4
+### References 4
 
 * [Microsoft vba](https://learn.microsoft.com/en-us/office/vba/api/overview/) <br>
 &nbsp;&nbsp;1. [VBA - Language reference for VBA](https://learn.microsoft.com/en-us/office/vba/api/overview/language-reference) <br>
