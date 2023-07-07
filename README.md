@@ -2,8 +2,19 @@
 
 #### Open Visual Basic Editor
 
-In Excel, select Tools, Macro, Visual Basic Editor, or use the keystroke
-Alt+F11.
+* [devtut - Getting started with excel-vba](https://devtut.github.io/excelvba/getting-started-with-excel-vba.html)
+
+Step 1: Open a Workbook
+
+Step 2 Option **A**: Press Alt + F11 <br>
+This is the standard shortcut to open the VBE.
+
+Step 2 Option **B**: Developer Tab --> View Code <br>
+First, the Developer Tab must be added to the ribbon. <br>
+Go to File -> Options -> Customize Ribbon, then check the box for developer. <br>
+Then, go to the developer tab and click "View Code" or "Visual Basic"
+
+Step 2 Option **C**: View tab > Macros > Click Edit button to open an Existing Macro
 
 
 #### How to get help
@@ -57,8 +68,6 @@ Click on the green "play" arrow (or press F5) in the VBE toolbar to run the prog
 while the cursor is inside the Sub procedure.<br>
 ( Or Click Run ==> "Run Sub/UserForm F5". )
 
-* [devtut - Getting started with excel-vba](https://devtut.github.io/excelvba/getting-started-with-excel-vba.html)
-
 
 #### How to export source code
 
@@ -103,15 +112,37 @@ Click on the Debug,  Compile  VBAproject.
 
 
 
-#### References 1
+#### References 1 ([devtut - Excel VBA](https://devtut.github.io/excelvba/))
 
-* [devtut - Getting started with excel-vba](https://devtut.github.io/excelvba/getting-started-with-excel-vba.html)
-* [devtut - Common Mistakes](https://devtut.github.io/excelvba/common-mistakes.html)
+* [devtut - **Getting started** with excel-vba](https://devtut.github.io/excelvba/getting-started-with-excel-vba.html)
+* [Last Used Row or Column in a Worksheet](https://devtut.github.io/excelvba/methods-for-finding-the-last-used-row-or-column-in-a-worksheet.html)
+* [Creating a drop-down menu in the Active Worksheet with a Combo Box](https://devtut.github.io/excelvba/creating-a-drop-down-menu-in-the-active-worksheet-with-a-combo-box.html)
+* [Early Binding vs Late Binding](https://devtut.github.io/excelvba/binding.html)
+* [SQL in Excel VBA - Best Practices](https://devtut.github.io/excelvba/sql-in-excel-vba-best-practices.html)
+* [Excel-VBA Optimization](https://devtut.github.io/excelvba/excel-vba-optimization.html)
+* [Debugging and Troubleshooting](https://devtut.github.io/excelvba/debugging-and-troubleshooting.html)
+* [VBA Best Practices](https://devtut.github.io/excelvba/vba-best-practices.html)
+* [Excel VBA Tips and Tricks](https://devtut.github.io/excelvba/excel-vba-tips-and-tricks.html)
+* [**Common Mistakes**](https://devtut.github.io/excelvba/common-mistakes.html)
+
+
+#### References 2 ([devtut - VBA](https://devtut.github.io/vba/))
+
+* [Scripting.Dictionary object](https://devtut.github.io/vba/scripting-dictionary-object.html)
+* [CreateObject vs. GetObject](https://devtut.github.io/vba/createobject-vs-getobject.html)
+* [Non-Latin Characters](https://devtut.github.io/vba/non-latin-characters.html)
+* [VBA Run-Time Errors](https://devtut.github.io/vba/vba-run-time-errors.html)
+* [Error Handling](https://devtut.github.io/vba/error-handling.html)
+
+
+#### References 3
+
 * [ScottSchaen - How To Get Started](https://github.com/ScottSchaen/excel-vba-macros#how-to-get-started)
 * [AllenMattson/VBA](https://github.com/AllenMattson/VBA)
 * [thesmallman - EXCEL VBA SCRIPTING DICTIONARY](https://www.thesmallman.com/blog/2020/4/24/excel-vba-scripting-dictionary)
 
-#### References 2
+
+#### References 4
 
 * [Microsoft vba](https://learn.microsoft.com/en-us/office/vba/api/overview/) <br>
 &nbsp;&nbsp;1. [Microsoft vba - Language reference for VBA](https://learn.microsoft.com/en-us/office/vba/api/overview/language-reference) <br>
